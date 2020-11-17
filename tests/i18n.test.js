@@ -27,7 +27,7 @@ beforeAll(
   180 * 1000
 );
 
-describe.only("next-on-netlify", () => {
+describe("next-on-netlify", () => {
   test("builds successfully", () => {
     expect(buildOutput).toMatch("Next on Netlify");
     expect(buildOutput).toMatch("Success! All done!");
